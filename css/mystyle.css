@@ -45,3 +45,81 @@ h3{
 .w_space{
     word-spacing: 15px;
 }
+
+.b_shadow{
+    box-shadow: 15px 13px 8px rgba(129, 90, 90, 0.5);
+    width: 300px;
+    height: 400px;
+}
+
+.d_shadow{
+    filter:drop-shadow(20px 20px 20px rgba(77, 57, 57, 0.5));
+    width: 300px;
+    height: 400px;
+    
+}
+.d_shadow2{
+    filter: drop-shadow(20px 20px 20px rgba(207, 5, 5, 0.5));
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+   
+}
+
+#d_shadow2{
+    border: 2px solid black;
+    box-sizing: border-box;
+    filter: drop-shadow(30px 30px 30px rgba(7, 7, 7, 0.5));
+}
+
+.t_color{
+    color:brown;
+}
+
+.t_size{
+    font-size: 30px;
+}
+
+.t_bg{
+    background-color: yellow;
+}
+
+#t_color{
+    color: green;
+    font-size: 40px;
+    background-color: black;
+}
+
+.f_family1{
+    font-family: Arial, sans-serif;
+    font-style: inherit;
+}
+.f_family2{
+    font-family: Times New Roman, serif;
+    font-style: italic;
+}
+.f_family3{
+    font-family: Verdana, sans-serif;
+}
+.f_family4{
+    font-family: Courier New, monospace;
+}
+
+.border1{
+    border: 4px solid red;
+}
+
+.border2{
+    border: 6px double blue;
+}
+
+.border3{
+    border: 8px dashed green;
+    border-radius: 50%;
+    border-color: brown green darkblue yellow;
+
+}
+
+.border4{
+    border: 10px inset orange;
+}
