@@ -123,3 +123,100 @@ h3{
 .border4{
     border: 10px inset orange;
 }
+
+
+.box1{
+    border: 10px solid black;
+    padding: 30px;
+    margin: 50px 30px 50px 30px;
+}
+
+.box2{
+    border: 6px double blue;
+    padding: 30px;
+    margin: 50px 30px 50px 30px;
+    border-radius: 20px;
+}
+
+.box3{
+    border: 6px dotted green;
+    padding: 30px;
+    margin: 50px 30px 50px 30px;
+    border-radius: 50%;
+}
+
+
+.box4{
+    border: 8px groove purple;
+    padding: 30px;
+    margin: 50px 30px 50px 30px;
+    border-radius: 100%;
+    height: 500px;
+    width: 400px;
+}
+
+
+.box5{
+    border: 10px ridge orange;
+    padding: 30px;
+    margin: 50px 30px 50px 30px;
+    border-radius: 25%;
+    height: 500px;
+    width: 400px;
+}
+
+
+.box6{
+    border: 10px outset red;
+    padding: 30px 50px 30px 50px;
+    margin: 50px 30px 50px 30px;
+    border-radius: 75%;
+    height: 500px;
+    width: 400px;
+}
+
+.linear{
+    height: 800px;
+    background: linear-gradient(orange, white  ,green);
+}
+
+.heading1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 280px;
+    font-family: Arial, sans-serif;
+    
+    
+}
+
+.radial{
+    height: 600px;
+    background: radial-gradient(rgb(9, 9, 9),rgb(117, 117, 202), white, rgb(181, 144, 144) , rgb(122, 122, 62), rgb(164, 90, 164), orange, pink,white, purple, blue, orange);
+    border-radius: 70%;
+    border: 2px dotted black;
+}
+
+
+.conic{
+    height: 600px;
+    background: conic-gradient(from 90deg , red, orange, yellow, green, blue, indigo, violet);
+    border-radius: 50%;
+    border: 2px dotted black;
+}
+
+.img234{
+    background-repeat: no-repeat;
+    background-image: url('images/cat.jpg');
+    background-position: center;
+    background-size:cover;
+    color: white;
+    background-attachment: fixed;
+
+}
+
+.text1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    color: black;
+}
