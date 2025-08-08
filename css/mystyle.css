@@ -219,6 +219,64 @@ h3{
    
 }
 
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 5px solid black;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.box11{
+    position: static;
+}
+.box21{
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+.box33{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+.box44{
+    position: sticky;
+    top: 10px;
+}
 
+.box55{
+    position: fixed;
+}
+
+.hall{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: lightgray;
+    top: 60px;
+    left: 250px;
+     
+}
+
+#tv{
+    position: absolute;
+    top: 50px;
+    left: 240px;
+    width: 300px;
+    height: 30px;
+    background-color: red;
+
+}
+
+#sofa{
+    position: absolute;
+    top: 130px;
+    left: 250px;
+    width: 250px;
+    height: 100px;
+    background-color: blue;
+}
 
 
