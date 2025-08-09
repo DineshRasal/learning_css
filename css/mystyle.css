@@ -252,21 +252,21 @@ h3{
 
 .hall{
     position: relative;
-    width: 800px;
-    height: 600px;
-    background-color: lightgray;
+    width: 1200px;
+    height: 1000px;
+    background-color: red;
     top: 60px;
     left: 250px;
      
 }
 
 #tv{
-    position: absolute;
+    /* position: absolute;
     top: 50px;
     left: 240px;
     width: 300px;
     height: 30px;
-    background-color: red;
+    background-color: red; */
 
 }
 
@@ -278,6 +278,16 @@ h3{
     height: 100px;
     background-color: blue;
     border: 2px solid black;
+}
+
+.tv1{
+    position: absolute;
+    top: 50px;
+    left: 240px;
+    width: 700px;
+    height: 400px;
+    background-color: red;
+    animation: tvMove 2s infinite;
 }
 
 
