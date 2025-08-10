@@ -236,11 +236,11 @@ h3{
     left: 300px;
     top: 20px;
 }
-.box33{
+/* .box33{
     position: absolute;
     left: 200px;
     top: 20px;
-}
+} */
 .box44{
     position: sticky;
     top: 10px;
@@ -290,4 +290,12 @@ h3{
     animation: tvMove 2s infinite;
 }
 
+.navbar1{
+    font-size: 100px;
+    position: sticky;
+    background-color: blueviolet;
+    top: 10px;
+    width: 100%;
+    color: black;
 
+}
