@@ -299,3 +299,24 @@ h3{
     color: black;
 
 }
+
+.flex-items{
+    background-color: blue;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
