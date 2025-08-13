@@ -10,7 +10,8 @@
 .card-container {
   display: flex;
   gap: 20px;
-}
+  
+} 
 
 .card {
   width: 150px;
