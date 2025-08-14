@@ -77,6 +77,6 @@ img{
 }
 
 @keyframes imganimation{
-     0%{transform: rotate(7deg);}
+     0%{transform: rotate(8deg);}
     100%{transform: rotate(-7deg);}
 } 
